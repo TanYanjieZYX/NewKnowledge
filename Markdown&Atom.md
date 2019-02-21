@@ -18,8 +18,8 @@ Markdown是一种轻量级的标记语言，Markdown的目标是实现易读易�
 2. 需要额外编译器
 浏览器不会默认编译Markdown，需要额外的编译器进行编译。
 ## 2. MD基本语法
-文本格式化
-**图片**
+**文本格式化**
+![M1](https://github.com/TanYanjieZYX/NewKnowledge/blob/master/pic/markdown1.png)
 
 |      Markdown代码      |                  HTML代码                  |
 |:----------------------:|:------------------------------------------:|
@@ -46,7 +46,7 @@ Markdown通过在引用的文字之前添加”>”标记达到引用的效果�
 你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。
 
 Markdown 可以利用反斜杠来实现转义， 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：
-**图片**
+![M2](https://github.com/TanYanjieZYX/NewKnowledge/blob/master/pic/markdown2.png)
 
 ### 链接地址
 Markdown 支持两种形式的链接语法： 行内式和参考式两种形式
@@ -119,7 +119,8 @@ CSDN已经内置了这个插件，我们就不需要手动插入了，可以直�
 ## 4. UML图
 ### 序列图
 所有的序列图代码需要放在一个语法类型为sequence的代码块中
-**图片**
+![M3](https://github.com/TanYanjieZYX/NewKnowledge/blob/master/pic/markdown3.jpg)
+
 1. 设置title，采用title: message。
 2. 设置participant，采用participant: actor
 3. 设置note
@@ -156,7 +157,8 @@ CSDN已经内置了这个插件，我们就不需要手动插入了，可以直�
 
 ## 5. CSDN MarkDown快捷入手
 尽量少用工具栏，少用鼠标，尽量使用手写语法格式，可以适度使用快捷键。
-**图片**
+![M4](https://github.com/TanYanjieZYX/NewKnowledge/blob/master/pic/markdown4.png)
+
 分割线直接输入，不建议使用快捷键
 大家可以直接使用CSDN Markdown实现离线写作，浏览器会自动存储大家的写作进度，也可以使用其他Markdown编辑工具（例如window平台下的markdown pad、mac平台下Mou等）写作完毕，再导入到CSDN Markdown里。
 
