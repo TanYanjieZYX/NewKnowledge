@@ -63,7 +63,7 @@ Babel JavaScript的编译器，可以将低版本的es语法转换为高版本�
 2、	在package.js引入插件 或者新建. babelrc文件引入
 
 # 11.装饰器语法
-
+![webpack1](https://github.com/TanYanjieZYX/NewKnowledge/blob/master/pic/webpack1.png)      
 # 12.presets（预设）—不用每次使用插件的时候再来安装
 Es5语法转换为Es6语法的插件添加进来就好了
 预设添加`   "presets": ["@babel/preset-env"],`
@@ -128,6 +128,7 @@ js,css文件命名带有字母和数字的是hash（MD5）值，有利于服务�
 chunkhash contenthash
 安装+webpack.package添加路径
 # 16.配置多个单页面应用——页面的入口文件
+![webpack2](https://github.com/TanYanjieZYX/NewKnowledge/blob/master/pic/webpack2.png)    
 # 17.使用loader来处理css样式
 两个配合使用
 Css-loader:将处理的结果交给style
@@ -171,7 +172,7 @@ devServer.quiet——不显示一些不必要的
 This option controls if and how source maps are generated.
 选择可以根据速度
 示例：
-
+![webpack3](https://github.com/TanYanjieZYX/NewKnowledge/blob/master/pic/webpack3.png)    
 运行代码出错和编译出错是两码事：
 线上环境不需要开启代码——source_map（代价大，占用内存）
 
@@ -227,7 +228,7 @@ fetch：浏览器使用，程序nodejs使用不适用
 同构版本来解决——isomorphic-fetch
 安装polyfill来解决问题
 async——promise
-
+![webpack4](https://github.com/TanYanjieZYX/NewKnowledge/blob/master/pic/webpack4.png)    
 ## 4.从 fetch 和 promise 入手来聊聊 polyfills 和 ponyfills 以及同构
 发送请求——之前是XMLHttpRequest（浏览器对象）
 jQUery——封装发送请求，使用更方便
